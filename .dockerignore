@@ -1,0 +1,18 @@
+.env
+.env.*
+.git
+vendor
+node_modules
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+database/*.sqlite*
+.codex
+.agents
+.ai
+.phpunit.cache
+
+storage/app/private/*
+Watchpost — System Specification.md
+bootstrap/cache/*.php

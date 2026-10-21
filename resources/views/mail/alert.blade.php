@@ -1,0 +1,2 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Watchpost alert</title></head><body style="font-family:Arial,sans-serif">
+<h1>Security alert · SEV {{ $alert->severity }}</h1><p>{{ $event->source_id }} · {{ $event->event_type }}</p><p>{{ $event->message }}</p><p>IP: {{ $event->actor_ip ?? 'Unknown' }}<br>Occurred: {{ $event->occurred_at->toIso8601String() }}<br>Occurrences: {{ $event->count }}</p><p>Alert ID: {{ $alert->id }}</p><p><a href="{{ route('dashboard') }}">Open Watchpost</a></p></body></html>
